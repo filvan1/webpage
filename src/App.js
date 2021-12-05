@@ -7,7 +7,6 @@ import Game from "./Game";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 /*
-
         <Route path="/about" exact component={Home} />
         ^ Gör så att den renderas endast när URL är ordagrannt path
 */
@@ -25,6 +24,8 @@ function App() {
         </Switch>
       </div>
     </Router>
+
+    
 
   );
 }

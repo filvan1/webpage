@@ -3,10 +3,10 @@ import Unity, {UnityContext} from 'react-unity-webgl';
 
 
 const unityContext = new UnityContext({
-    loaderUrl: "Build/prism.loader.js",
-    dataUrl: "Build/prism.data",
-    frameworkUrl: "Build/prism.framework.js",
-    codeUrl: "Build/prism.wasm",
+    loaderUrl: "GameBuild/prism.loader.js",
+    dataUrl: "GameBuild/prism.data",
+    frameworkUrl: "GameBuild/prism.framework.js",
+    codeUrl: "GameBuild/prism.wasm",
   });
 
   /*unityContext.on("canvas", (canvas) => {
